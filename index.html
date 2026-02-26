@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이인숙님 산수연 초대장</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;700&family=Noto+Sans+KR:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #f9f7f2;
+        }
+        .serif {
+            font-family: 'Noto Serif KR', serif;
+        }
+        .bg-pattern {
+            background-color: #fdfbf7;
+            background-image: url("https://www.transparenttextures.com/patterns/natural-paper.png");
+        }
+        .fade-in {
+            animation: fadeIn 1.5s ease-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body class="flex justify-center items-start min-h-screen p-0 m-0">
+
+    <div class="max-w-md w-full bg-pattern shadow-2xl min-h-screen overflow-hidden relative border-x border-gray-100">
+        
+        <!-- Header Image / Top Decoration -->
+        <div class="h-64 bg-stone-100 flex items-center justify-center relative overflow-hidden">
+            <div class="absolute inset-0 opacity-20">
+                <svg width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
+                    <path d="M0 100 C 20 0 50 0 100 100 Z" fill="#d4af37"></path>
+                </svg>
+            </div>
+            <div class="text-center z-10 fade-in">
+                <span class="block text-sm tracking-[0.3em] text-stone-500 mb-2">INVITATION</span>
+                <h1 class="serif text-4xl font-bold text-stone-800">산수연(傘壽宴)</h1>
+                <div class="mt-4 w-12 h-px bg-stone-300 mx-auto"></div>
+                <p class="mt-4 serif text-lg text-stone-600">이인숙님의 여든 번째 생신</p>
+            </div>
+        </div>
+
+        <!-- Main Content (Line breaks updated) -->
+        <div class="px-8 py-12 text-center fade-in" style="animation-delay: 0.3s;">
+            <p class="text-stone-600 leading-loose mb-8 serif">
+                흐르는 세월 속에 어느덧<br>
+                여든 번째 봄을 맞이하였습니다.<br>
+                <br>
+                그동안 베풀어주신<br>
+                따뜻한 사랑과 은혜에 감사드리며,<br>
+                정성껏 마련한 자리에 함께하시어<br>
+                기쁨을 나누어 주시면 감사하겠습니다.
+            </p>
+
+            <div class="space-y-6 bg-white/50 p-8 rounded-2xl border border-stone-100 shadow-sm">
+                <div class="flex flex-col items-center">
+                    <span class="text-xs text-stone-400 mb-1">WHEN</span>
+                    <p class="text-lg font-medium text-stone-800">2026년 3월 7일 (토요일)</p>
+                    <p class="text-stone-600">오후 12:00 ~ 15:00</p>
+                </div>
+
+                <div class="w-full h-px bg-stone-100"></div>
+
+                <div class="flex flex-col items-center">
+                    <span class="text-xs text-stone-400 mb-1">WHERE</span>
+                    <a href="https://m.search.naver.com/search.naver?sm=mtp_sug.top&where=m&query=%EC%A7%84%EC%A7%84%EC%88%98%EB%9D%BC+%EB%A7%88%EA%B3%A1&ackey=hlmr29ej&acq=%EC%A7%84%EC%A7%84%EC%88%98%EB%9D%BC&acr=6&qdt=0" 
+                       target="_blank" 
+                       class="text-lg font-medium text-amber-800 underline underline-offset-4 hover:text-amber-600 transition-colors">
+                        진진수라 마곡
+                    </a>
+                    <div class="mt-2 space-y-1">
+                        <p class="text-sm text-stone-600">서울 강서구 마곡중앙로 143 코엑스마곡 지하2층</p>
+                        <p class="text-xs text-stone-400 leading-relaxed">
+                            9호선·공항철도 마곡나루역 1번 출구에서 396m
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Location Map Button -->
+        <div class="px-8 pb-12 fade-in" style="animation-delay: 0.6s;">
+            <a href="https://m.search.naver.com/search.naver?sm=mtp_sug.top&where=m&query=%EC%A7%84%EC%A7%84%EC%88%98%EB%9D%BC+%EB%A7%88%EA%B3%A1&ackey=hlmr29ej&acq=%EC%A7%84%EC%A7%84%EC%88%98%EB%9D%BC&acr=6&qdt=0" 
+               target="_blank"
+               class="flex items-center justify-center w-full bg-stone-800 text-white py-4 rounded-xl shadow-lg hover:bg-stone-700 transition-all active:scale-[0.98]">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+                네이버 지도로 장소 확인하기
+            </a>
+        </div>
+
+        <!-- Footer Decoration -->
+        <div class="py-12 bg-stone-50 text-center">
+            <div class="flex justify-center space-x-2 mb-4">
+                <div class="w-1.5 h-1.5 rounded-full bg-stone-300"></div>
+                <div class="w-1.5 h-1.5 rounded-full bg-stone-300"></div>
+                <div class="w-1.5 h-1.5 rounded-full bg-stone-300"></div>
+            </div>
+            <p class="text-xs text-stone-400 serif tracking-widest uppercase">Family of Lee In Sook</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
